@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<!-- KAYA configFile -->
+
+<Service name="KAYA">
+	<!-- kayaMetaModelParseLogPath 解析日志 kayaMetaModelSqlLogPath SQL日志 kayaMetaModelConnectionLogPath 
+		数据库连接日志
+		请保障文件夹的存在 -->
+	<Log kayaMetaModelParseLogPath="C:/workspace/KayaModel.log"
+		kayaMetaModelSqlLogPath="C:/workspace/KayaModelSql.log"
+		kayaMetaModelConnectionLogPath="C:/workspace/KayaModelConnection.log" />
+	<!-- metamodelPath 开发模式模型文件位置（仅支持Windows） modelPath 生产模式模型文件位置（Windows,linux,Mac 
+		os） -->
+	<KaYa metamodelPath="C:/Users/LiangChen/Desktop/GME/kaya003.mga"
+		modelPath="/Demo2.xme"
+		rulePath=""
+		workFlowPath="" />
+
+	<!-- 开发模式 dev 生产模式 prod -->
+	<OperationalMode mode="prod" />
+</Service>

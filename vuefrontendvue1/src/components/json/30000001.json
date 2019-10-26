@@ -1,0 +1,370 @@
+{
+    "employeeId": "30000001",
+	"employeeLevel": "3",
+	"employeeName": "Mark",
+    "message": [
+        {
+            "messageId": "00000002",
+            "detailId": "00000003",
+            "isNewMessage": "1",
+			"sendDate":"2019-05-01 10:07",
+            "requestType": "Expense",
+            "requestId": "10000001_20190501_100501",
+            "requesterId": "20000001",
+            "requesterName": "Jack",
+            "message": "has passed the request."
+        },
+        {
+            "messageId": "00000001",
+            "detailId": "00000001",
+            "isNewMessage": "1",
+			"sendDate":"2019-05-01 10:07",
+            "requestType": "Expense",
+            "requestId": "10000001_20190501_100501",
+            "requesterId": "10000001",
+            "requesterName": "Tom",
+            "message": "has cancelled the request."
+        }
+    ],
+    "records": [
+		 {
+		    "recordId": "00000005",
+		    "detailId": "00000005",
+		    "requestType": "Expense",
+		    "requestId": "30000001_20190502_100502",
+		    "currentApproverId": "20000001",
+		    "currentApprover": "Jack",
+			"requesterId": "30000001",
+			"receptionistId": "20000001",
+			"authorizerId": "30000001",
+		    "status": "Checking"
+		},
+        {
+            "recordId": "00000004",
+            "detailId": "00000004",
+            "requestType": "Expense",
+            "requestId": "10000001_20190501_100501",
+            "currentApproverId": "10000001",
+            "currentApprover": "Tom",
+			"requesterId": "10000001",
+			"receptionistId": "20000001",
+			"authorizerId": "30000001",
+            "status": "Revising"
+        },
+        {
+            "recordId": "00000003",
+            "detailId": "00000003",
+            "requestType": "Expense",
+            "requestId": "10000001_20190501_100501",
+            "currentApproverId": "30000001",
+            "currentApprover": "Mark",
+			"requesterId": "10000001",
+			"receptionistId": "20000001",
+			"authorizerId": "30000001",
+            "status": "Pending"
+        },
+        {
+            "recordId": "00000002",
+            "detailId": "00000002",
+            "requestType": "Expense",
+            "requestId": "10000001_20190501_100501",
+            "currentApproverId": "10000001",
+            "currentApprover": "Tom",
+			"requesterId": "10000001",
+			"receptionistId": "20000001",
+			"authorizerId": "30000001",
+            "status": "Approved"
+        },
+        {
+            "recordId": "00000001",
+            "detailId": "00000001",
+            "requestType": "Expense",
+            "requestId": "10000001_20190501_100501",
+            "currentApproverId": "30000001",
+            "currentApprover": "Mark",
+			"requesterId": "10000001",
+			"receptionistId": "20000001",
+			"authorizerId": "30000001",
+            "status": "Cancelled"
+        }
+    ],
+    "detail": [
+		{
+		    "detailId": "00000005",
+		    "requestId": "30000001_20190502_100502",
+		    "currentApproverId": "20000001",
+		    "currentApprover": "Jack",
+		    "currentStatus": "Checking",
+		    "requestCategory": "External Request",
+		    "requestType": "Expense",
+		    "dateOnRequest": "2019-05-02",
+		    "requesterId": "30000001",
+		    "requesterName": "Mark",
+		    "receptionistId": "20000001",
+		    "receptionist": "Jack",
+		    "authorizerId": "30000001",
+		    "authorizer": "Mark",
+		    "previousApproverId": "30000001",
+		    "previousApprover": "Mark",
+		    "dateFrom": "2019-04-01",
+            "dateTo": "2019-04-30",
+            "currency": "JPY",
+		    "account": "13000",
+		    "returnTo": "0",
+		    "feedback": [
+		        {
+		            "feedbackContent": "05/02 Jack XXXXXX"
+		        },
+		        {
+		            "feedbackContent": "05/03 Mark XXXXXX",
+		            "field": "value"
+		        }
+            ],
+            "historyNumber":"2",
+		    "history": [
+		        {
+		            "time": "05/01 10:05",
+		            "status": "Checking",
+		            "message": "10000001 Tom has submitted the request."
+		        },
+		        {
+		            "time": "05/01 10:05",
+		            "status": "Revising",
+		            "message": "20000001 Jack has sent back the request."
+		        }
+		    ]
+		},
+        {
+            "detailId": "00000004",
+            "requestId": "10000001_20190501_100501",
+            "currentApproverId": "10000001",
+            "currentApprover": "Tom",
+            "currentStatus": "Revising",
+            "requestCategory": "External Request",
+            "requestType": "Expense",
+            "dateOnRequest": "2019-05-01",
+            "requesterId": "10000001",
+            "requesterName": "Tom",
+            "receptionistId": "20000001",
+            "receptionist": "Jack",
+            "authorizerId": "30000001",
+            "authorizer": "Mark",
+            "previousApproverId": "20000001",
+            "previousApprover": "Jack",
+            "dateFrom": "2019-04-01",
+            "dateTo": "2019-04-30",
+            "currency": "JPY",
+            "account": "13000",
+            "returnTo": "0",
+            "feedback": [
+                {
+                    "feedbackContent": "05/02 Jack XXXXXX"
+                },
+                {
+                    "feedbackContent": "05/03 Mark XXXXXX",
+                    "field": "value"
+                }
+            ],
+            "historyNumber":"2",
+            "history": [
+                {
+                    "time": "05/01 10:05",
+                    "status": "Checking",
+                    "message": "10000001 Tom has submitted the request."
+                },
+                {
+                    "time": "05/01 10:05",
+                    "status": "Revising",
+                    "message": "20000001 Jack has sent back the request."
+                }
+            ]
+        },
+        {
+            "detailId": "00000003",
+            "requestId": "10000001_20190501_100501",
+            "currentApproverId": "30000001",
+            "currentApprover": "Mark",
+            "currentStatus": "Pending",
+            "requestCategory": "External Request",
+            "requestType": "Expense",
+            "dateOnRequest": "2019-05-01",
+            "requesterId": "10000001",
+            "requesterName": "Tom",
+            "receptionistId": "20000001",
+            "receptionist": "Jack",
+            "authorizerId": "30000001",
+            "authorizer": "Mark",
+            "previousApproverId": "20000001",
+            "previousApprover": "Jack",
+            "dateFrom": "2019-04-01",
+            "dateTo": "2019-04-30",
+            "currency": "JPY",
+            "account": "13000",
+            "returnTo": "0",
+            "feedback": [
+                {
+                    "feedbackContent": "05/02 Jack XXXXXX"
+                },
+                {
+                    "feedbackContent": "05/03 Mark XXXXXX"
+                }
+            ],
+            "historyNumber":"4",
+            "history": [
+                {
+                    "time": "05/01 10:05",
+                    "status": "Checking",
+                    "message": "10000001 Tom has submitted the request."
+                },
+                {
+                    "time": "05/01 10:05",
+                    "status": "Revising",
+                    "message": "20000001 Jack has sent back the request."
+                },
+                {
+                    "time": "05/01 10:05",
+                    "status": "Checking",
+                    "message": "10000001 Tom has revised the request."
+                },
+                {
+                    "time": "05/01 10:05",
+                    "status": "Checking",
+                    "message": "20000001 Jack has passed the request."
+                }
+            ]
+        },
+        {
+            "detailId": "00000002",
+            "requestId": "10000001_20190501_100501",
+            "currentApproverId": "10000001",
+            "currentApprover": "Tom",
+            "currentStatus": "Approved",
+            "requestCategory": "External Request",
+            "requestType": "Expense",
+            "dateOnRequest": "2019-05-01",
+            "requesterId": "10000001",
+            "requesterName": "Tom",
+            "receptionistId": "20000001",
+            "receptionist": "Jack",
+            "authorizerId": "30000001",
+            "authorizer": "Mark",
+            "previousApproverId": "20000001",
+            "previousApprover": "Jack",
+            "dateFrom": "2019-04-01",
+            "dateTo": "2019-04-30",
+            "currency": "JPY",
+            "account": "13000",
+            "returnTo": "0",
+            "feedback": [
+                {
+                    "feedbackContent": "05/02 Jack XXXXXX"
+                },
+                {
+                    "feedbackContent": "05/03 Mark XXXXXX"
+                }
+            ],
+            "historyNumber":"5",
+            "history": [
+                {
+                    "time": "05/01 10:05",
+                    "status": "Checking",
+                    "message": "10000001 Tom has submitted the request."
+                },
+                {
+                    "time": "05/01 10:05",
+                    "status": "Revising",
+                    "message": "20000001 Jack has sent back the request."
+                },
+                {
+                    "time": "05/01 10:05",
+                    "status": "Checking",
+                    "message": "10000001 Tom has revised the request."
+                },
+                {
+                    "time": "05/01 10:05",
+                    "status": "Checking",
+                    "message": "20000001 Jack has passed the request."
+                },
+                {
+                    "time": "05/01 10:05",
+                    "status": "Approved",
+                    "message": "30000001 Mark has approved the request."
+                }
+            ]
+        },
+        {
+            "detailId": "00000001",
+            "requestId": "10000001_20190501_100501",
+            "currentApproverId": "30000001",
+            "currentApprover": "Mark",
+            "currentStatus": "Cancelled",
+            "requestCategory": "External Request",
+            "requestType": "Expense",
+            "dateOnRequest": "2019-05-01",
+            "requesterId": "10000001",
+            "requesterName": "Tom",
+            "receptionistId": "20000001",
+            "receptionist": "Jack",
+            "authorizerId": "30000001",
+            "authorizer": "Mark",
+            "previousApproverId": "10000001",
+            "previousApprover": "Tom",
+            "dateFrom": "2019-04-01",
+            "dateTo": "2019-04-30",
+            "currency": "JPY",
+            "account": "13000",
+            "returnTo": "0",
+            "feedback": [
+                {
+                    "feedbackContent": "05/02 Jack XXXXXX"
+                },
+                {
+                    "feedbackContent": "05/03 Mark XXXXXX"
+                }
+            ],
+            "historyNumber":"8",
+            "history": [
+                {
+                    "time": "05/01 10:05",
+                    "status": "Checking",
+                    "message": "10000001 Tom has submitted the request."
+                },
+                {
+                    "time": "05/01 10:05",
+                    "status": "Revising",
+                    "message": "20000001 Jack has sent back the request."
+                },
+                {
+                    "time": "05/01 10:05",
+                    "status": "Checking",
+                    "message": "10000001 Tom has revised the request."
+                },
+                {
+                    "time": "05/01 10:05",
+                    "status": "Checking",
+                    "message": "20000001 Jack has passed the request."
+                },
+                {
+                    "time": "05/01 10:05",
+                    "status": "Approved",
+                    "message": "30000001 Mark has approved the request."
+                },
+                {
+                    "time": "05/01 10:05",
+                    "status": "Pending",
+                    "message": "30000001 Mark has pulled back the request."
+                },
+                {
+                    "time": "05/01 10:05",
+                    "status": "Revising",
+                    "message": "30000001 Mark has sent back the request."
+                },
+                {
+                    "time": "05/01 10:05",
+                    "status": "Cancelled",
+                    "message": "10000001 Tom has cancelled the request."
+                }
+            ]
+        }
+    ]
+}

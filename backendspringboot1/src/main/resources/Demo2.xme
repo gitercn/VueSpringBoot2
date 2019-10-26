@@ -1,0 +1,1904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project SYSTEM "mga.dtd">
+
+<project guid="{8EB2D3C2-C0AD-433C-AB08-7469AFBC6531}" cdate="Tue May 28 10:55:05 2019" mdate="Tue May 28 10:55:05 2019" version="" metaguid="{A84FBA7B-CA0D-4C2E-9B92-F2B9EC13B0B8}" metaversion="1.0.1" metaname="KaYaModel">
+	<name>RootFolder</name>
+	<comment></comment>
+	<author></author>
+	<folder id="id-006a-00000001" relid="0x1" childrelidcntr="0x2" kind="RootFolder" guid="{0a16a2a5-89ba-4986-bbe4-0c243007864f}">
+		<name>RootFolder</name>
+		<model id="id-0065-00000001" kind="KaYaDiagram" guid="{7521b0a9-5d6d-4584-a2d5-ad278a50450f}" relid="0x1" childrelidcntr="0x13">
+			<name>KaYaDiagram</name>
+			<attribute kind="Comments" status="meta">
+				<value></value>
+			</attribute>
+			<attribute kind="DbType">
+				<value>Db2</value>
+			</attribute>
+			<attribute kind="Language">
+				<value>Default</value>
+			</attribute>
+			<attribute kind="Password">
+				<value>qpwlz@1kcm52hk7l</value>
+			</attribute>
+			<attribute kind="Schema" status="meta">
+				<value></value>
+			</attribute>
+			<attribute kind="URL">
+				<value>jdbc:db2://dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net:50001/BLUDB:sslConnection=true;</value>
+			</attribute>
+			<attribute kind="UserName">
+				<value>rbm51225</value>
+			</attribute>
+			<model id="id-0065-00000003" kind="Role" role="Role" guid="{f3e3a860-ecd5-4c17-ad36-8a5e9dfff77e}" relid="0x6" childrelidcntr="0xe">
+				<name>EmployeeMaster</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="KaYa" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>560,42</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="Comments" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="EndDate" status="meta">
+					<value>9999-12-31</value>
+				</attribute>
+				<attribute kind="IndexNo" status="meta">
+					<value>0</value>
+				</attribute>
+				<attribute kind="KindKey">
+					<value>EmployeeMast</value>
+				</attribute>
+				<attribute kind="Name1" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Name2" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="StartDate" status="meta">
+					<value>9999-12-31</value>
+				</attribute>
+				<atom id="id-0066-00000005" kind="UniqueProperty" role="UniqueProperty" guid="{fa785209-32e1-4804-ad6e-f3fbd903e1e0}" relid="0x1">
+					<name>EmployeeId</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>63,42</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="DataLength">
+						<value>8</value>
+					</attribute>
+					<attribute kind="DataType" status="meta">
+						<value>String</value>
+					</attribute>
+					<attribute kind="DefaultValue" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="EndDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+					<attribute kind="Format" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="IndexNo" status="meta">
+						<value>0</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>EmployeeId</value>
+					</attribute>
+					<attribute kind="Name1">
+						<value>社員ｺｰﾄﾞ</value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="StartDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+				</atom>
+				<atom id="id-0066-00000007" kind="Property" role="Property" guid="{cd987a46-deb8-484b-bed7-1d7a96c668e0}" relid="0x3">
+					<name>EmployeeName</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>63,126</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="DataLength">
+						<value>40</value>
+					</attribute>
+					<attribute kind="DataType" status="meta">
+						<value>String</value>
+					</attribute>
+					<attribute kind="DefaultValue" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="EndDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+					<attribute kind="Format" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="IndexNo">
+						<value>1</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>EmployeeName</value>
+					</attribute>
+					<attribute kind="Name1">
+						<value>社員名</value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="StartDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+				</atom>
+				<atom id="id-0066-00000013" kind="Property" role="Property" guid="{d4c8df45-c6ed-4ee0-8405-fd038164ecc8}" relid="0x5">
+					<name>Password</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>63,217</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="DataLength">
+						<value>8</value>
+					</attribute>
+					<attribute kind="DataType" status="meta">
+						<value>String</value>
+					</attribute>
+					<attribute kind="DefaultValue" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="EndDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+					<attribute kind="Format" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="IndexNo">
+						<value>2</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>Password</value>
+					</attribute>
+					<attribute kind="Name1">
+						<value>パスワード</value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="StartDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+				</atom>
+				<reference id="id-0067-00000006" kind="PropertyReference" role="PropertyReference" guid="{eb572ffb-d53b-4f09-9566-3e4952953266}" relid="0x9" referred="id-0066-00000016">
+					<name>ApprovalLevel</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>252,42</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="DefaultValue">
+						<value>ApprovalLevel</value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="IndexNo">
+						<value>6</value>
+					</attribute>
+					<attribute kind="IsUniqueKey" status="meta">
+						<value>false</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>ApprovalLevel</value>
+					</attribute>
+				</reference>
+				<reference id="id-0067-0000000a" kind="PropertyReference" role="PropertyReference" guid="{4207856c-49b3-4b32-8e79-41d6bd517fd9}" relid="0xa" referred="id-0066-00000016">
+					<name>GroupId</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>63,385</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="DefaultValue">
+						<value>GroupId</value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="IndexNo" status="meta">
+						<value>0</value>
+					</attribute>
+					<attribute kind="IsUniqueKey" status="meta">
+						<value>false</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>GroupId</value>
+					</attribute>
+				</reference>
+				<reference id="id-0067-0000000b" kind="PropertyReference" role="PropertyReference" guid="{593478c8-9f2e-414e-b2c2-461f0d637257}" relid="0xb" referred="id-0066-00000016">
+					<name>DepartmentId</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>70,483</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="DefaultValue">
+						<value>DepartmentId</value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="IndexNo" status="meta">
+						<value>0</value>
+					</attribute>
+					<attribute kind="IsUniqueKey" status="meta">
+						<value>false</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>DepartmentId</value>
+					</attribute>
+				</reference>
+			</model>
+			<model id="id-0065-00000009" kind="Role" role="Role" guid="{eefef2f0-ab07-4f5b-93cd-424701a388da}" relid="0xa" childrelidcntr="0x4">
+				<name>ComboMaster</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="KaYa" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>364,203</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="Comments" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="EndDate" status="meta">
+					<value>9999-12-31</value>
+				</attribute>
+				<attribute kind="IndexNo" status="meta">
+					<value>0</value>
+				</attribute>
+				<attribute kind="KindKey">
+					<value>ComboMaster</value>
+				</attribute>
+				<attribute kind="Name1" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Name2" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="StartDate" status="meta">
+					<value>9999-12-31</value>
+				</attribute>
+				<atom id="id-0066-00000016" kind="UniqueProperty" role="UniqueProperty" guid="{40513a52-886a-4b29-8e40-a8ea3b06b393}" relid="0x1">
+					<name>ComboId</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>84,49</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="DataLength">
+						<value>20</value>
+					</attribute>
+					<attribute kind="DataType" status="meta">
+						<value>String</value>
+					</attribute>
+					<attribute kind="DefaultValue" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="EndDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+					<attribute kind="Format" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="IndexNo" status="meta">
+						<value>0</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>ComboId</value>
+					</attribute>
+					<attribute kind="Name1" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="StartDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+				</atom>
+				<atom id="id-0066-00000017" kind="Property" role="Property" guid="{7fdd8dc6-e49a-42bf-a7dd-ca12616c58a8}" relid="0x2">
+					<name>ComboName</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>84,140</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="DataLength">
+						<value>40</value>
+					</attribute>
+					<attribute kind="DataType" status="meta">
+						<value>String</value>
+					</attribute>
+					<attribute kind="DefaultValue" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="EndDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+					<attribute kind="Format" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="IndexNo">
+						<value>1</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>ComboName</value>
+					</attribute>
+					<attribute kind="Name1" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="StartDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+				</atom>
+				<atom id="id-0066-00000018" kind="UniqueProperty" role="UniqueProperty" guid="{d8f7319c-d806-41fe-986b-de87f4bd0207}" relid="0x3">
+					<name>ItemId</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>84,231</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="DataLength">
+						<value>1</value>
+					</attribute>
+					<attribute kind="DataType" status="meta">
+						<value>String</value>
+					</attribute>
+					<attribute kind="DefaultValue">
+						<value>0</value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="EndDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+					<attribute kind="Format" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="IndexNo">
+						<value>2</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>ItemId</value>
+					</attribute>
+					<attribute kind="Name1" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="StartDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+				</atom>
+				<atom id="id-0066-00000019" kind="Property" role="Property" guid="{8181287e-3b3e-4a47-8d39-487080704d26}" relid="0x4">
+					<name>ItemName</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>84,322</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="DataLength">
+						<value>40</value>
+					</attribute>
+					<attribute kind="DataType" status="meta">
+						<value>String</value>
+					</attribute>
+					<attribute kind="DefaultValue" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="EndDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+					<attribute kind="Format" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="IndexNo">
+						<value>3</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>ItemName</value>
+					</attribute>
+					<attribute kind="Name1" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="StartDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+				</atom>
+			</model>
+			<model id="id-0065-0000000a" kind="Role" role="Role" guid="{1685a3f8-1f39-4ca2-a9cb-c2666c371b09}" relid="0xb" childrelidcntr="0x18">
+				<name>RequestManagementTran</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="KaYa" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>1050,217</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="Comments" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="EndDate" status="meta">
+					<value>9999-12-31</value>
+				</attribute>
+				<attribute kind="IndexNo" status="meta">
+					<value>0</value>
+				</attribute>
+				<attribute kind="KindKey">
+					<value>RequestManagementTran</value>
+				</attribute>
+				<attribute kind="Name1" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Name2" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="StartDate" status="meta">
+					<value>9999-12-31</value>
+				</attribute>
+				<atom id="id-0066-0000001a" kind="UniqueProperty" role="UniqueProperty" guid="{2b79c3c8-6313-4079-ab24-44bab6f96e61}" relid="0x1">
+					<name>RequestNo</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>35,14</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="DataLength">
+						<value>22</value>
+					</attribute>
+					<attribute kind="DataType" status="meta">
+						<value>String</value>
+					</attribute>
+					<attribute kind="DefaultValue" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="EndDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+					<attribute kind="Format" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="IndexNo" status="meta">
+						<value>0</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>RequestNo</value>
+					</attribute>
+					<attribute kind="Name1">
+						<value>申請番号</value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="StartDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+				</atom>
+				<atom id="id-0066-0000001c" kind="Property" role="Property" guid="{a8be8683-123b-416f-bdd8-a2af3dcb6b77}" relid="0x5">
+					<name>RequestDate</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>210,168</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="DataLength">
+						<value>10</value>
+					</attribute>
+					<attribute kind="DataType">
+						<value>Date</value>
+					</attribute>
+					<attribute kind="DefaultValue" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="EndDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+					<attribute kind="Format">
+						<value>yyyy/mm/dd</value>
+					</attribute>
+					<attribute kind="IndexNo">
+						<value>3</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>RequestDate</value>
+					</attribute>
+					<attribute kind="Name1">
+						<value>請求日</value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="StartDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+				</atom>
+				<atom id="id-0066-0000001f" kind="Property" role="Property" guid="{8f1bca36-5a84-4f59-a2b8-663ee0670c80}" relid="0xd">
+					<name>FromDate</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>210,245</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="DataLength">
+						<value>10</value>
+					</attribute>
+					<attribute kind="DataType">
+						<value>Date</value>
+					</attribute>
+					<attribute kind="DefaultValue" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="EndDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+					<attribute kind="Format">
+						<value>yyyy/mm/dd</value>
+					</attribute>
+					<attribute kind="IndexNo">
+						<value>5</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>FromDate</value>
+					</attribute>
+					<attribute kind="Name1">
+						<value>請求開始日</value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="StartDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+				</atom>
+				<atom id="id-0066-00000020" kind="Property" role="Property" guid="{6f46e56d-5180-4565-b472-dae4e0128541}" relid="0xe">
+					<name>EndDate</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>210,315</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="DataLength">
+						<value>10</value>
+					</attribute>
+					<attribute kind="DataType">
+						<value>Date</value>
+					</attribute>
+					<attribute kind="DefaultValue" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="EndDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+					<attribute kind="Format">
+						<value>yyyy/mm/dd</value>
+					</attribute>
+					<attribute kind="IndexNo">
+						<value>6</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>EndDate</value>
+					</attribute>
+					<attribute kind="Name1">
+						<value>請求終了日</value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="StartDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+				</atom>
+				<atom id="id-0066-00000021" kind="Property" role="Property" guid="{f09ca72c-dc93-4fd8-a62f-76e33df8ecba}" relid="0xf">
+					<name>Currency</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>210,392</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="DataLength">
+						<value>20</value>
+					</attribute>
+					<attribute kind="DataType" status="meta">
+						<value>String</value>
+					</attribute>
+					<attribute kind="DefaultValue" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="EndDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+					<attribute kind="Format" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="IndexNo">
+						<value>7</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>Currency</value>
+					</attribute>
+					<attribute kind="Name1">
+						<value>貨幣種類</value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="StartDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+				</atom>
+				<atom id="id-0066-00000022" kind="Property" role="Property" guid="{d9220e98-a852-40c5-a622-75541d5c118d}" relid="0x10">
+					<name>Account</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>210,462</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="DataLength">
+						<value>20</value>
+					</attribute>
+					<attribute kind="DataType">
+						<value>Decimal</value>
+					</attribute>
+					<attribute kind="DefaultValue">
+						<value>0</value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="EndDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+					<attribute kind="Format">
+						<value>#00.00</value>
+					</attribute>
+					<attribute kind="IndexNo">
+						<value>8</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>Account</value>
+					</attribute>
+					<attribute kind="Name1">
+						<value>申請金額</value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="StartDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+				</atom>
+				<atom id="id-0066-00000023" kind="Property" role="Property" guid="{2fd3415c-d3d6-4344-943b-c1bbcff92557}" relid="0x11">
+					<name>AttachReceipt</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>217,532</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="DataLength">
+						<value>80</value>
+					</attribute>
+					<attribute kind="DataType" status="meta">
+						<value>String</value>
+					</attribute>
+					<attribute kind="DefaultValue" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="EndDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+					<attribute kind="Format" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="IndexNo">
+						<value>9</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>AttachReceipt</value>
+					</attribute>
+					<attribute kind="Name1">
+						<value>添付ファイル</value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="StartDate" status="meta">
+						<value>9999-12-31</value>
+					</attribute>
+				</atom>
+				<reference id="id-0067-00000007" kind="PropertyReference" role="PropertyReference" guid="{b7c4f8c2-41e0-4de2-9066-96cf00f8dc06}" relid="0x2" referred="id-0066-00000016">
+					<name>ExpenseType</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>42,84</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="DefaultValue">
+						<value>ExpenseType</value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="IndexNo">
+						<value>1</value>
+					</attribute>
+					<attribute kind="IsUniqueKey" status="meta">
+						<value>false</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>ExpenseType</value>
+					</attribute>
+				</reference>
+				<reference id="id-0067-00000009" kind="PropertyReference" role="PropertyReference" guid="{c686b86e-8f64-46fa-abb6-94146509b8cf}" relid="0x6" referred="id-0066-00000005">
+					<name>RequesterId</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="KaYa" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>42,245</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="DefaultValue" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Display" status="meta">
+						<value>true</value>
+					</attribute>
+					<attribute kind="IndexNo">
+						<value>4</value>
+					</attribute>
+					<attribute kind="IsUniqueKey" status="meta">
+						<value>false</value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>RequesterId</value>
+					</attribute>
+				</reference>
+			</model>
+			<atom id="id-0066-00000001" kind="Product" role="Product" guid="{eb5d98af-e03d-41ab-9c25-8d3c4682e07a}" relid="0x1">
+				<name>System</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="KaYa" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>7,7</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="Comments" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="EndDate" status="meta">
+					<value>9999-12-31</value>
+				</attribute>
+				<attribute kind="KindKey" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Name1" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Name2" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="StartDate" status="meta">
+					<value>9999-12-31</value>
+				</attribute>
+			</atom>
+			<atom id="id-0066-00000002" kind="Product" role="Product" guid="{044e498b-38ac-42d3-ad1e-cb00e728ce88}" relid="0x2">
+				<name>RequestSystem</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="KaYa" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>238,7</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="Comments" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="EndDate" status="meta">
+					<value>9999-12-31</value>
+				</attribute>
+				<attribute kind="KindKey" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Name1" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Name2" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="StartDate" status="meta">
+					<value>9999-12-31</value>
+				</attribute>
+			</atom>
+			<connection id="id-0068-00000001" kind="ProductToProductConnection" role="ProductToProductConnection" guid="{08803666-8259-446b-9b8e-b855de0d2440}" relid="0x4">
+				<name>ProductToProductConnection</name>
+				<regnode name="autorouterPref" isopaque="yes">
+					<value>W</value>
+				</regnode>
+				<connpoint role="dst" target="id-0066-00000001"/>
+				<connpoint role="src" target="id-0066-00000002"/>
+			</connection>
+			<connection id="id-0068-00000010" kind="RoleToRoleConnection" role="RoleToRoleConnection" guid="{31054f42-bf79-4117-8408-63ab17fd0e36}" relid="0xf">
+				<name>RoleToRoleConnection</name>
+				<connpoint role="dst" target="id-0065-00000003"/>
+				<connpoint role="src" target="id-0065-0000000a"/>
+			</connection>
+			<connection id="id-0068-00000016" kind="RoleToProductConnection" role="RoleToProductConnection" guid="{53a58c4f-c520-4ad6-b6bb-44bf33fe7758}" relid="0x12">
+				<name>RoleToProductConnection</name>
+				<connpoint role="src" target="id-0065-00000009"/>
+				<connpoint role="dst" target="id-0066-00000002"/>
+			</connection>
+			<connection id="id-0068-00000017" kind="RoleToProductConnection" role="RoleToProductConnection" guid="{763665fd-9021-4fc8-915c-5b9aee10d960}" relid="0x13">
+				<name>RoleToProductConnection</name>
+				<connpoint role="src" target="id-0065-00000003"/>
+				<connpoint role="dst" target="id-0066-00000002"/>
+			</connection>
+		</model>
+		<model id="id-0065-00000004" kind="KayaWorkFlowDiagram" guid="{d55ba80c-d554-4ccc-ab92-768d64fa300d}" relid="0x2" childrelidcntr="0x5">
+			<name>KayaWorkFlowDiagram</name>
+			<attribute kind="Language" status="meta">
+				<value>Default</value>
+			</attribute>
+			<model id="id-0065-00000005" kind="WorkFlow" role="WorkFlow" guid="{ac0f0382-f701-4d2e-9fe7-95248f411d37}" relid="0x2" childrelidcntr="0x31">
+				<name>ExpenseRequestWorkFlow</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="WorkFlowAspect" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>637,245</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="KindKey" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Name1" status="meta">
+					<value></value>
+				</attribute>
+				<attribute kind="Name2" status="meta">
+					<value></value>
+				</attribute>
+				<model id="id-0065-00000006" kind="UserTask" role="UserTask" guid="{235d0aba-42a5-4f6b-ac95-28a5e16bda37}" relid="0x3" childrelidcntr="0x6">
+					<name>Requester</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="WorkFlowAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>168,252</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>Requester</value>
+					</attribute>
+					<attribute kind="Name1">
+						<value>申請者</value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Organization">
+						<value>ApprovalLevel==1</value>
+					</attribute>
+					<atom id="id-0066-0000000a" kind="Action" role="Action" guid="{2bdb77e4-2c79-48ff-8bff-59eab21a0703}" relid="0x1">
+						<name>Submit</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>315,175</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="Display" status="meta">
+							<value>true</value>
+						</attribute>
+						<attribute kind="IndexNo" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="KindKey">
+							<value>Submit</value>
+						</attribute>
+						<attribute kind="Name1">
+							<value>提出</value>
+						</attribute>
+						<attribute kind="Name2" status="meta">
+							<value></value>
+						</attribute>
+					</atom>
+					<atom id="id-0066-0000000b" kind="Action" role="Action" guid="{20dcda74-d185-40bd-bcd6-cf3927654d0f}" relid="0x2">
+						<name>Save</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>315,84</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="Display" status="meta">
+							<value>true</value>
+						</attribute>
+						<attribute kind="IndexNo" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="KindKey">
+							<value>Save</value>
+						</attribute>
+						<attribute kind="Name1">
+							<value>保存</value>
+						</attribute>
+						<attribute kind="Name2" status="meta">
+							<value></value>
+						</attribute>
+					</atom>
+					<atom id="id-0066-0000000c" kind="Action" role="Action" guid="{ca5593b3-efd1-4f97-ba38-8b57762134ef}" relid="0x3">
+						<name>Cancel</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>560,77</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="Display" status="meta">
+							<value>true</value>
+						</attribute>
+						<attribute kind="IndexNo" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="KindKey">
+							<value>Cancel</value>
+						</attribute>
+						<attribute kind="Name1">
+							<value>キャンセル</value>
+						</attribute>
+						<attribute kind="Name2" status="meta">
+							<value></value>
+						</attribute>
+					</atom>
+					<atom id="id-0066-0000002d" kind="Action" role="Action" guid="{206e7a86-6fed-45e4-bd24-840e7b6df589}" relid="0x5">
+						<name>Revise</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>560,175</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="Display" status="meta">
+							<value>true</value>
+						</attribute>
+						<attribute kind="IndexNo" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="KindKey">
+							<value>Revise</value>
+						</attribute>
+						<attribute kind="Name1">
+							<value>再申請</value>
+						</attribute>
+						<attribute kind="Name2" status="meta">
+							<value></value>
+						</attribute>
+					</atom>
+					<atom id="id-0066-0000002e" kind="Action" role="Action" guid="{c27cb9ce-b1e2-4dd1-9304-2a0bde37ceff}" relid="0x6">
+						<name>PullBack</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>441,280</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="Display" status="meta">
+							<value>true</value>
+						</attribute>
+						<attribute kind="IndexNo" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="KindKey">
+							<value>PullBack</value>
+						</attribute>
+						<attribute kind="Name1">
+							<value>引戻す</value>
+						</attribute>
+						<attribute kind="Name2" status="meta">
+							<value></value>
+						</attribute>
+					</atom>
+				</model>
+				<model id="id-0065-00000007" kind="UserTask" role="UserTask" guid="{72b60a96-0cf3-4e75-9ec4-542efd36b904}" relid="0x4" childrelidcntr="0x5">
+					<name>Receptionist</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="WorkFlowAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>546,434</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>Receptionist</value>
+					</attribute>
+					<attribute kind="Name1">
+						<value>受付者</value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Organization">
+						<value>ApprovalLevel==2</value>
+					</attribute>
+					<atom id="id-0066-0000000e" kind="Action" role="Action" guid="{a23af47f-3503-4e44-9371-ba0c63d01eec}" relid="0x1">
+						<name>Accept</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>399,189</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="Display" status="meta">
+							<value>true</value>
+						</attribute>
+						<attribute kind="IndexNo" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="KindKey">
+							<value>Accept</value>
+						</attribute>
+						<attribute kind="Name1">
+							<value>受付</value>
+						</attribute>
+						<attribute kind="Name2" status="meta">
+							<value></value>
+						</attribute>
+					</atom>
+					<atom id="id-0066-0000000f" kind="Action" role="Action" guid="{3a78a2ca-ab84-4302-a4d2-2ee4ad1eb63a}" relid="0x2">
+						<name>Save</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>399,63</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="Display" status="meta">
+							<value>true</value>
+						</attribute>
+						<attribute kind="IndexNo" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="KindKey">
+							<value>Save</value>
+						</attribute>
+						<attribute kind="Name1">
+							<value>保存</value>
+						</attribute>
+						<attribute kind="Name2" status="meta">
+							<value></value>
+						</attribute>
+					</atom>
+					<atom id="id-0066-00000010" kind="Action" role="Action" guid="{4ba34ef1-1e24-4f5d-9bff-e3848e343bbf}" relid="0x3">
+						<name>PullBack</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>637,63</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="Display" status="meta">
+							<value>true</value>
+						</attribute>
+						<attribute kind="IndexNo" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="KindKey">
+							<value>PullBack</value>
+						</attribute>
+						<attribute kind="Name1">
+							<value>引戻す</value>
+						</attribute>
+						<attribute kind="Name2" status="meta">
+							<value></value>
+						</attribute>
+					</atom>
+					<atom id="id-0066-00000011" kind="Property" role="Property" guid="{cb48238c-7bdc-499a-8991-8e1427c1285a}" relid="0x4">
+						<name>ReceptionistComment</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>497,364</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments">
+							<value>担当者へのコメント内容</value>
+						</attribute>
+						<attribute kind="DataLength" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="DataType" status="meta">
+							<value>String</value>
+						</attribute>
+						<attribute kind="DefaultValue" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="Display" status="meta">
+							<value>true</value>
+						</attribute>
+						<attribute kind="EndDate" status="meta">
+							<value>9999-12-31</value>
+						</attribute>
+						<attribute kind="Format" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="IndexNo" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="KindKey">
+							<value>ReceptionistComment</value>
+						</attribute>
+						<attribute kind="Name1">
+							<value>受付コメント</value>
+						</attribute>
+						<attribute kind="Name2" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="StartDate" status="meta">
+							<value>9999-12-31</value>
+						</attribute>
+					</atom>
+					<atom id="id-0066-00000031" kind="Action" role="Action" guid="{fecf8656-cefd-4430-a061-612322fc03d0}" relid="0x5">
+						<name>SendBack</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>637,196</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="Display" status="meta">
+							<value>true</value>
+						</attribute>
+						<attribute kind="IndexNo" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="KindKey">
+							<value>SendBack</value>
+						</attribute>
+						<attribute kind="Name1">
+							<value>差戻す</value>
+						</attribute>
+						<attribute kind="Name2" status="meta">
+							<value></value>
+						</attribute>
+					</atom>
+				</model>
+				<model id="id-0065-0000000c" kind="UserTask" role="UserTask" guid="{0201e9a5-94e4-4cea-a349-e81b8776238a}" relid="0xd" childrelidcntr="0x5">
+					<name>Authorizer</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="WorkFlowAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>910,273</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="KindKey">
+						<value>Authorizer</value>
+					</attribute>
+					<attribute kind="Name1">
+						<value>承認者</value>
+					</attribute>
+					<attribute kind="Name2" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="Organization">
+						<value>ApprovalLevel==3</value>
+					</attribute>
+					<atom id="id-0066-00000034" kind="Property" role="Property" guid="{6b9c8948-f75a-4c71-b6a0-242a6ff6c369}" relid="0x1">
+						<name>AuthorizerComment</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>357,336</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments">
+							<value>承認者からのコメント</value>
+						</attribute>
+						<attribute kind="DataLength" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="DataType" status="meta">
+							<value>String</value>
+						</attribute>
+						<attribute kind="DefaultValue" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="Display" status="meta">
+							<value>true</value>
+						</attribute>
+						<attribute kind="EndDate" status="meta">
+							<value>9999-12-31</value>
+						</attribute>
+						<attribute kind="Format" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="IndexNo" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="KindKey">
+							<value>AuthorizerComment</value>
+						</attribute>
+						<attribute kind="Name1">
+							<value>承認者コメント</value>
+						</attribute>
+						<attribute kind="Name2" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="StartDate" status="meta">
+							<value>9999-12-31</value>
+						</attribute>
+					</atom>
+					<atom id="id-0066-00000035" kind="Action" role="Action" guid="{4ee6ccef-a3ab-4b70-893e-1823f9117724}" relid="0x2">
+						<name>Approve</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>343,147</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="Display" status="meta">
+							<value>true</value>
+						</attribute>
+						<attribute kind="IndexNo" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="KindKey">
+							<value>Approve</value>
+						</attribute>
+						<attribute kind="Name1">
+							<value>承認</value>
+						</attribute>
+						<attribute kind="Name2" status="meta">
+							<value></value>
+						</attribute>
+					</atom>
+					<atom id="id-0066-00000036" kind="Action" role="Action" guid="{5a39b9ab-ec93-444d-bd1c-df0637b979f5}" relid="0x3">
+						<name>PullBack</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>511,147</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="Display" status="meta">
+							<value>true</value>
+						</attribute>
+						<attribute kind="IndexNo" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="KindKey">
+							<value>PullBack</value>
+						</attribute>
+						<attribute kind="Name1">
+							<value>引戻す</value>
+						</attribute>
+						<attribute kind="Name2" status="meta">
+							<value></value>
+						</attribute>
+					</atom>
+					<atom id="id-0066-00000037" kind="Action" role="Action" guid="{995319a1-5398-4f2a-8376-13741f54cd73}" relid="0x4">
+						<name>SendBack</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>511,238</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="Display" status="meta">
+							<value>true</value>
+						</attribute>
+						<attribute kind="IndexNo" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="KindKey">
+							<value>SendBack</value>
+						</attribute>
+						<attribute kind="Name1">
+							<value>差戻す</value>
+						</attribute>
+						<attribute kind="Name2" status="meta">
+							<value></value>
+						</attribute>
+					</atom>
+					<atom id="id-0066-00000038" kind="Action" role="Action" guid="{9c637396-423a-4b2f-af23-f34a46217b2c}" relid="0x5">
+						<name>Save</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>350,245</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="Display" status="meta">
+							<value>true</value>
+						</attribute>
+						<attribute kind="IndexNo" status="meta">
+							<value>0</value>
+						</attribute>
+						<attribute kind="KindKey">
+							<value>Save</value>
+						</attribute>
+						<attribute kind="Name1">
+							<value>保存</value>
+						</attribute>
+						<attribute kind="Name2" status="meta">
+							<value></value>
+						</attribute>
+					</atom>
+				</model>
+				<model id="id-0065-0000000d" kind="ExclusiveGateway" role="ExclusiveGateway" guid="{107d42a5-c25d-4472-83e3-0aa20cce7c77}" relid="0xe" childrelidcntr="0x2">
+					<name>返回先判断</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="WorkFlowAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>546,112</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="KindKey" status="meta">
+						<value></value>
+					</attribute>
+					<atom id="id-0066-0000002f" kind="Conditions" role="Conditions" guid="{415506d3-1816-4764-b9ff-67505bff6995}" relid="0x1">
+						<name>Requester</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>231,42</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="EndDate" status="meta">
+							<value>9999-12-31</value>
+						</attribute>
+						<attribute kind="GroovyScript">
+							<value>ReturnP==0</value>
+						</attribute>
+						<attribute kind="KindKey" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="StartDate" status="meta">
+							<value>9999-12-31</value>
+						</attribute>
+					</atom>
+					<atom id="id-0066-00000030" kind="Conditions" role="Conditions" guid="{8cf97ad0-1e4b-41bb-88c6-5a9491f4c635}" relid="0x2">
+						<name>Receptionist</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>231,126</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="EndDate" status="meta">
+							<value>9999-12-31</value>
+						</attribute>
+						<attribute kind="GroovyScript">
+							<value>ReturnP==1</value>
+						</attribute>
+						<attribute kind="KindKey" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="StartDate" status="meta">
+							<value>9999-12-31</value>
+						</attribute>
+					</atom>
+				</model>
+				<model id="id-0065-00000011" kind="ExclusiveGateway" role="ExclusiveGateway" guid="{869a96f5-b4db-4404-b81b-d0a95e32dd8f}" relid="0x1e" childrelidcntr="0x2">
+					<name>再申請先判断</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="WorkFlowAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>546,259</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="Comments" status="meta">
+						<value></value>
+					</attribute>
+					<attribute kind="KindKey" status="meta">
+						<value></value>
+					</attribute>
+					<atom id="id-0066-00000040" kind="Conditions" role="Conditions" guid="{13139bec-b713-4334-a2d6-ff20d83986d6}" relid="0x1">
+						<name>Receptionist</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>378,140</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="EndDate" status="meta">
+							<value>9999-12-31</value>
+						</attribute>
+						<attribute kind="GroovyScript">
+							<value>ProApproverLevel==2</value>
+						</attribute>
+						<attribute kind="KindKey" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="StartDate" status="meta">
+							<value>9999-12-31</value>
+						</attribute>
+					</atom>
+					<atom id="id-0066-00000041" kind="Conditions" role="Conditions" guid="{e5148f4f-c39a-484e-ba34-447137f3f901}" relid="0x2">
+						<name>Authorizer</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="WorkFlowAspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>378,266</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<attribute kind="Comments" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="EndDate" status="meta">
+							<value>9999-12-31</value>
+						</attribute>
+						<attribute kind="GroovyScript">
+							<value>ProApproverLevel==3</value>
+						</attribute>
+						<attribute kind="KindKey" status="meta">
+							<value></value>
+						</attribute>
+						<attribute kind="StartDate" status="meta">
+							<value>9999-12-31</value>
+						</attribute>
+					</atom>
+				</model>
+				<atom id="id-0066-00000008" kind="Start" role="Start" guid="{c2a1b46b-252a-47cf-b10e-dd6dbc947fa2}" relid="0x1">
+					<name>Start</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="WorkFlowAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>140,63</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</atom>
+				<atom id="id-0066-00000009" kind="End" role="End" guid="{ce83cb79-157c-4d98-862b-62240b3cc5b7}" relid="0x2">
+					<name>End</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="WorkFlowAspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>1106,70</value>
+							</regnode>
+						</regnode>
+					</regnode>
+				</atom>
+				<connection id="id-0068-00000005" kind="StartToModelTaskConnection" role="StartToModelTaskConnection" guid="{553803e4-1a04-4caf-a954-797d7bb1cd55}" relid="0x5">
+					<name>StartToModelTaskConnection</name>
+					<regnode name="autorouterPref" isopaque="yes">
+						<value>n</value>
+					</regnode>
+					<connpoint role="dst" target="id-0065-00000006"/>
+					<connpoint role="src" target="id-0066-00000008"/>
+				</connection>
+				<connection id="id-0068-00000032" kind="ModelTaskToActionConnection" role="ModelTaskToActionConnection" guid="{a62f432b-a7d4-4c14-84de-3e1b16447040}" relid="0x1c">
+					<name>ModelTaskToActionConnection</name>
+					<regnode name="customConnectionData" isopaque="yes">
+						<value>0,0,0,2,1,0,532,0,0,0</value>
+					</regnode>
+					<connpoint role="src" target="id-0065-00000007"/>
+					<connpoint role="dst" target="id-0066-0000002e"/>
+				</connection>
+				<connection id="id-0068-00000033" kind="ModelTaskToActionConnection" role="ModelTaskToActionConnection" guid="{85c2e41b-e44d-4efe-9880-e6091a491422}" relid="0x1f">
+					<name>ModelTaskToActionConnection</name>
+					<connpoint role="src" target="id-0065-0000000c"/>
+					<connpoint role="dst" target="id-0066-0000002e"/>
+				</connection>
+				<connection id="id-0068-00000036" kind="ActionToModelTaskConnection" role="ActionToModelTaskConnection" guid="{50a7ff84-73ef-446e-90c5-8f0b0e3eecbc}" relid="0x22">
+					<name>ActionToModelTaskConnection</name>
+					<connpoint role="dst" target="id-0065-00000011"/>
+					<connpoint role="src" target="id-0066-0000002d"/>
+				</connection>
+				<connection id="id-0068-00000037" kind="ActionToModelTaskConnection" role="ActionToModelTaskConnection" guid="{ed1595a9-356c-46cc-80fc-8ba1924fe84c}" relid="0x23">
+					<name>ActionToModelTaskConnection</name>
+					<connpoint role="dst" target="id-0065-0000000c"/>
+					<connpoint role="src" target="id-0066-00000041"/>
+				</connection>
+				<connection id="id-0068-00000038" kind="ActionToModelTaskConnection" role="ActionToModelTaskConnection" guid="{4b5c3b1f-3cd2-4bf4-b854-59f562a9f428}" relid="0x24">
+					<name>ActionToModelTaskConnection</name>
+					<connpoint role="dst" target="id-0065-00000007"/>
+					<connpoint role="src" target="id-0066-00000040"/>
+				</connection>
+				<connection id="id-0068-00000039" kind="ActionToModelTaskConnection" role="ActionToModelTaskConnection" guid="{f5445138-66c1-43aa-aa49-961f4892b47a}" relid="0x25">
+					<name>ActionToModelTaskConnection</name>
+					<connpoint role="dst" target="id-0065-00000007"/>
+					<connpoint role="src" target="id-0066-0000000a"/>
+				</connection>
+				<connection id="id-0068-0000003a" kind="ActionToModelTaskConnection" role="ActionToModelTaskConnection" guid="{c16653c0-58df-4b72-a812-4f7f6a2a4215}" relid="0x26">
+					<name>ActionToModelTaskConnection</name>
+					<connpoint role="dst" target="id-0065-00000006"/>
+					<connpoint role="src" target="id-0066-0000000b"/>
+				</connection>
+				<connection id="id-0068-0000003b" kind="ActionToModelTaskConnection" role="ActionToModelTaskConnection" guid="{8609f8ca-9842-482a-a83d-67b14d638fdf}" relid="0x27">
+					<name>ActionToModelTaskConnection</name>
+					<connpoint role="dst" target="id-0065-00000006"/>
+					<connpoint role="src" target="id-0066-0000000c"/>
+				</connection>
+				<connection id="id-0068-0000003c" kind="ActionToModelTaskConnection" role="ActionToModelTaskConnection" guid="{f5113c9c-e13b-4393-be8b-eed7dec2c0a4}" relid="0x28">
+					<name>ActionToModelTaskConnection</name>
+					<connpoint role="dst" target="id-0065-00000007"/>
+					<connpoint role="src" target="id-0066-0000000f"/>
+				</connection>
+				<connection id="id-0068-0000003d" kind="ModelTaskToActionConnection" role="ModelTaskToActionConnection" guid="{e5aed6c3-7606-4874-912e-c5caa6231ea6}" relid="0x29">
+					<name>ModelTaskToActionConnection</name>
+					<connpoint role="src" target="id-0065-0000000c"/>
+					<connpoint role="dst" target="id-0066-00000010"/>
+				</connection>
+				<connection id="id-0068-0000003e" kind="ActionToModelTaskConnection" role="ActionToModelTaskConnection" guid="{9b75d4e7-a170-4c10-a18b-f06ef991b173}" relid="0x2a">
+					<name>ActionToModelTaskConnection</name>
+					<connpoint role="dst" target="id-0065-0000000c"/>
+					<connpoint role="src" target="id-0066-0000000e"/>
+				</connection>
+				<connection id="id-0068-0000003f" kind="ActionToModelTaskConnection" role="ActionToModelTaskConnection" guid="{8b5ab34c-49a6-4d15-b265-616ef3396a8b}" relid="0x2b">
+					<name>ActionToModelTaskConnection</name>
+					<connpoint role="dst" target="id-0065-00000006"/>
+					<connpoint role="src" target="id-0066-00000031"/>
+				</connection>
+				<connection id="id-0068-00000040" kind="ActionToEndConnection" role="ActionToEndConnection" guid="{6c0ff9bf-0c82-4f84-a39c-b86b873b47a6}" relid="0x2c">
+					<name>ActionToEndConnection</name>
+					<connpoint role="dst" target="id-0066-00000009"/>
+					<connpoint role="src" target="id-0066-00000035"/>
+				</connection>
+				<connection id="id-0068-00000041" kind="EndToActionConnection" role="EndToActionConnection" guid="{be0f9915-599e-4750-b8bb-e56633f5ff7a}" relid="0x2d">
+					<name>EndToActionConnection</name>
+					<connpoint role="src" target="id-0066-00000009"/>
+					<connpoint role="dst" target="id-0066-00000036"/>
+				</connection>
+				<connection id="id-0068-00000042" kind="ActionToModelTaskConnection" role="ActionToModelTaskConnection" guid="{084df5ea-01ef-4e30-bb02-638fe8102525}" relid="0x2e">
+					<name>ActionToModelTaskConnection</name>
+					<connpoint role="dst" target="id-0065-0000000d"/>
+					<connpoint role="src" target="id-0066-00000037"/>
+				</connection>
+				<connection id="id-0068-00000043" kind="ActionToModelTaskConnection" role="ActionToModelTaskConnection" guid="{02ae8eca-dfa6-497c-8f3d-5822c78fa39b}" relid="0x2f">
+					<name>ActionToModelTaskConnection</name>
+					<connpoint role="dst" target="id-0065-00000006"/>
+					<connpoint role="src" target="id-0066-0000002f"/>
+				</connection>
+				<connection id="id-0068-00000044" kind="ActionToModelTaskConnection" role="ActionToModelTaskConnection" guid="{57802f60-938d-4555-aa6f-561a0b2d2946}" relid="0x30">
+					<name>ActionToModelTaskConnection</name>
+					<connpoint role="dst" target="id-0065-00000007"/>
+					<connpoint role="src" target="id-0066-00000030"/>
+				</connection>
+				<connection id="id-0068-00000045" kind="ActionToModelTaskConnection" role="ActionToModelTaskConnection" guid="{a023b656-2a7c-4fa0-9070-45116971a88a}" relid="0x31">
+					<name>ActionToModelTaskConnection</name>
+					<connpoint role="dst" target="id-0065-0000000c"/>
+					<connpoint role="src" target="id-0066-00000038"/>
+				</connection>
+			</model>
+			<reference id="id-0067-00000002" kind="ProductReference" role="ProductReference" guid="{b15bf7cb-6096-45c1-b1de-a9cc10dbf3e6}" relid="0x1" referred="id-0066-00000002">
+				<name>RequestSystem</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="WorkFlowAspect" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>224,91</value>
+						</regnode>
+					</regnode>
+				</regnode>
+			</reference>
+			<connection id="id-0068-00000004" kind="WorkFlowToProductRefConnection" role="WorkFlowToProductRefConnection" guid="{2c55ec5e-a535-43bf-82c1-f4c3411a5ef8}" relid="0x3">
+				<name>WorkFlowToProductRefConnection</name>
+				<connpoint role="src" target="id-0065-00000005"/>
+				<connpoint role="dst" target="id-0067-00000002"/>
+			</connection>
+		</model>
+	</folder>
+</project>
